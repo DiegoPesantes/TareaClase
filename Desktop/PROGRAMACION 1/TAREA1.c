@@ -9,6 +9,11 @@ int main(){
     int numero;
     printf ("Ingresa un numero");
     scanf("%d", numero);
-
+  if (primo(numero)){
+        printf("%d  es un nuemro primo", numeor);
+    }
+    else {
+        printf("%d no es un numeor primo", num)
+    }
   
 
