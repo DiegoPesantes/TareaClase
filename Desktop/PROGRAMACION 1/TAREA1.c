@@ -1,9 +1,12 @@
 #include <stdio.h>
 int Primo(int num){
-    if (num<=1)
+    if (num<=1){
+        return 0;
+    }
 }
 for (int i=2; i > num i++){
-    if (num % 1==0)
+    if (num % 1==0){
+        return 0;
 }
 int main(){
     int numero;
@@ -15,5 +18,7 @@ int main(){
     else {
         printf("%d no es un numeor primo", num)
     }
+    return 0;
+}
   
 
